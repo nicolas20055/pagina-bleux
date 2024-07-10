@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: #2e2550;
+    color: white;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.menu{
+    background-color: rgb(29, 0, 56);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: right;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .download-btn {
+    background: #22033b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    background: #2e2550;
+    color: white;
+    padding: 50px 20px;
+
+}
+.fonc{
+    color:#FF4081;
+
+}
+.h3a{
+    color:#FF4081;
+}
+.h3b{
+    color:#FF4081;
+}
+
+.hojash{
+    height: 50vh;
+    width:50vh;
+    
+}
+
+.hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.primary {
+    background: #FF4081;
+}
+
+.secondary {
+    background: #4A4A4A;
+}
+
+.features {
+    background: #F5F5F5;
+    padding: 50px 20px;
+}
+
+.features .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.feature-item img {
+    width: 500px;
+    height: 250px;
+}
+
+.feature-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-text ul li {
+    margin-bottom: 5px;
+}
+
+.pricing {
+    background: #2C1338;
+    color: white;
+    padding: 50px 20px;
+
+}
+
+.pricing .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing p {
+    font-size: 16px;
+}
