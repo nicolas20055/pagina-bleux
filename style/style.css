@@ -15,7 +15,7 @@ header .container {
     justify-content:space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: -10px;
     padding: 0 20px;
 }
 .menu{
@@ -40,19 +40,38 @@ header nav ul li a {
 }
 
 header .download-btn {
-    background: #22033b;
+    background:#CC00FF;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+
 }
 
 .hero {
     background: #2e2550;
     color: white;
-    padding: 50px 20px;
+    height: 700px;
+    width:100%;
+    display: flex;
+    
+}
+
+.derecha{
+    display: flex;
+    width: 50%;
+    background-image: url(../assets/hojasFondo.jpg);
+    background-size: cover;
 
 }
+.derecha img {
+    padding-top: 100px;
+    padding-left: 120px;
+    width: 270px;
+    height: 500px;
+}
+
+
 .fonc{
     color:#FF4081;
 
@@ -70,14 +89,16 @@ header .download-btn {
     
 }
 
-.hero .container {
+.container {
     max-width: 800px;
     margin: 0 auto;
+    width: 50%;
 }
 
 .hero h1 {
     font-size: 48px;
     margin-bottom: 20px;
+    margin-top:200px;
 }
 
 .hero p {
@@ -86,9 +107,20 @@ header .download-btn {
 }
 
 .hero-buttons {
+    padding: 5px ;
+    color: white;
+    border: 2px solid;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    box-shadow: 0 0 5px;
+    height: 50px;
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top:300px;
+    width: 600px;
+    
 }
 
 .btn {
@@ -97,13 +129,18 @@ header .download-btn {
     text-decoration: none;
     color: white;
 }
+.p{
+    text-align: center;
 
+}
 .primary {
+    text-align: center;
+    width:200px;
     background: #FF4081;
 }
 
 .secondary {
-    background: #4A4A4A;
+    background:#2e2550;
 }
 
 .features {
@@ -151,21 +188,51 @@ header .download-btn {
 .pricing {
     background: #2C1338;
     color: white;
-    padding: 50px 20px;
+    padding: 50px ;
+    text-align:center ;
+    color: white;
+    border: 2px solid;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    box-shadow: 0 0 5px;
 
 }
 
+
+.plan1{
+    display: flex;
+    justify-content: left;
+    height:30px;
+    font-size: 20px;
+    padding: 50px;
+
+}
+
+.plan2{
+    display: flex;
+    justify-content: center;
+}
+.plan3{
+    display: flex;
+    justify-content: right;
+}
 .pricing .container {
-    max-width: 800px;
+    width: 800px;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+
 }
 
 .pricing h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 80px;
+    line-height: 1.6;
+    margin-bottom: 100px;
+    align-items: center;
 }
 
 .pricing p {
     font-size: 16px;
+    display: flex;
+    margin-top:100px ;
 }
