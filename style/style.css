@@ -416,11 +416,11 @@ header .download-btn {
         width: 320px;
     }
 
-    .btn {
+    .hero-buttons {
         left: 40px;
     }
 
-    .ph1 {
+    .derecha1 {
         padding: 140px 89px;
     }
 
@@ -428,7 +428,7 @@ header .download-btn {
         left: 3px;
     }
 
-    .div2 {
+    .feature-text  {
         left: 438px;
     }
 
@@ -466,7 +466,7 @@ header .download-btn {
         flex-direction: column;
     }
 
-    #div-1{
+    .container{
         position: static;
     }
 
