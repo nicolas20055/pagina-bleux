@@ -123,6 +123,7 @@ header .download-btn {
     
 }
 
+
 .btn {
     padding: 10px 20px;
     border-radius: 5px;
@@ -141,6 +142,13 @@ header .download-btn {
 
 .secondary {
     background:#2e2550;
+}
+.btn-subscribe{
+    text-align: center;
+    width:200px;
+    background: #FF4081;
+
+
 }
 
 .features {
@@ -185,38 +193,154 @@ header .download-btn {
     margin-bottom: 5px;
 }
 
-.pricing {
-    background: #2C1338;
-    color: white;
-    padding: 50px ;
-    text-align:center ;
-    color: white;
-    border: 2px solid;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:16px;
-    box-shadow: 0 0 5px;
 
+.sec-three{
+    background-color: #1e172f;
+    font-family:Arial, Helvetica, sans-serif;
+    height:900px;
+    
 }
 
-
-.plan1{
-    display: flex;
-    justify-content: left;
-    height:30px;
-    font-size: 20px;
-    padding: 50px;
-
+.sec-three h2{
+    color: #FFFFFF;
+    font-size: 45px;
+    position: relative;
+    top: 30px;
+    left: 38%;
+    width: 400px;
 }
 
-.plan2{
+.content{
+    text-align: center; 
+    position: relative;
+    top: 80px;
+    left: 25%;
+    width: 50%;
+    color: #B2B0B7;
+}
+
+.contenedor{
+    margin-top: 180px;
     display: flex;
+    gap: 25px;
     justify-content: center;
 }
-.plan3{
-    display: flex;
-    justify-content: right;
+
+.cuadro1{
+    background-color: #FFFFFF;
+    display: flex;  
+    flex-flow: column;
+    width: 250px;
+    text-align: center;
+    height: 500px;
+    border-radius: 5px;
 }
+
+.cuadro2{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: column;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    height: 500px;
+}
+
+.tarjet-img{
+    margin: 0px 35% 0px 35%;
+    width: 80px;
+    
+}
+
+.tarjet-titulo1{
+    color: #F0298F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjet-list{
+    list-style-type: n1;
+}
+
+.tarjet-list1{
+    list-style-type: n1;
+}
+
+
+.tarjet-price{
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.price{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.tarjet-list{
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjet-list li{
+    margin-top: 10px;
+}
+
+.tarjet-list1{
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjet-list1 li{
+    margin-top: 10px;
+}
+
+.tarjet-content{
+    margin-top: 30px;
+    font-size: 15px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tarjet-buton{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+    border-radius: 5px;
+}
+
+.btn-subscribe1{
+    background: rgb(235,96,168);
+    background: linear-gradient(90deg, rgba(235,96,168,1) 0%, rgba(240,62,153,1) 35%, rgba(243,23,135,1) 100%);
+    height: 35px;
+    width: 120px;
+    border-radius: 4px;
+    outline: n1;
+    border-color: n1;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-subscribe{
+    background-color: #2E2550;
+    height: 35px;
+    width: 120px;
+    border-radius: 4px;
+    outline: n1;
+    border-color: n1;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .pricing .container {
     width: 800px;
     margin: 0 auto;
@@ -236,3 +360,119 @@ header .download-btn {
     display: flex;
     margin-top:100px ;
 }
+
+.footer{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    text-align: right;
+}
+
+@media  (max-width:920px) {
+    .container{
+        left: 65px;
+        width: 400px;
+    }
+
+    .ph1 {
+        padding: 140px 129px;
+    }
+    .hero-buttons {
+        left: 65px;
+    }
+
+    .laptop {
+        left: 94px;
+    }
+
+    .feature-text {
+        left: 580px;
+    }
+
+    .sec-three h2 {
+        left: 34%;
+    }
+
+    .contenido {
+        left: 26%;
+    }
+
+    .sec-three{
+        height: 960px;
+    }
+
+    .img-tarjeta {
+        padding: 18vh;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media  (max-width:768px) {
+    .container {
+        left: 40px;
+        width: 320px;
+    }
+
+    .btn {
+        left: 40px;
+    }
+
+    .ph1 {
+        padding: 140px 89px;
+    }
+
+    .laptop {
+        left: 3px;
+    }
+
+    .div2 {
+        left: 438px;
+    }
+
+    .sec-three {
+        height: 1400px;
+    }
+
+    .sec-three h2 {
+        left: 30%;
+    }
+
+    .contenido {
+        left: 17%;
+        width: 500px;
+    }
+
+    .tarjetas{
+        flex-wrap: wrap;
+        margin-top: 120px;
+    }
+}
+
+@media   (max-width: 480px) {
+    header{
+        height: 68px;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .cuadro2{
+        flex-direction: column;
+    }
+
+    #div-1{
+        position: static;
+    }
+
+    .img-tarjeta {
+        padding: 0vh;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}   
